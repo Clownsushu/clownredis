@@ -2,13 +2,8 @@
     "name": "clown/redis",
     "version": "1.0.0",
     "description": "redis类",
+    "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "clown\\redis\\": "src/"
-        },
-        "files": []
-    },
     "authors": [
         {
             "name": "clown",
@@ -17,8 +12,10 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-    
-    "psr-4": {
-        "clown\\redis\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "clown\\redis\\": "src/"
+        },
+        "files": []
     }
 }

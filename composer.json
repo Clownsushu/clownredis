@@ -1,5 +1,6 @@
 {
     "name": "clown/redis",
+    "version": "1.0.0",
     "description": "redis类",
     "license": "MIT",
     "autoload": {

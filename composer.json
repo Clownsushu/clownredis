@@ -18,7 +18,5 @@
     "psr-4": {
         "clown\\": "src/"
     },
-    "files": [
-        "src/helper.php"
-    ]
+    "files": []
 }

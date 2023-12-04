@@ -93,6 +93,8 @@ class Redis
         !empty($password) && $this->connect->auth($password);
         //要查询的数据库
         $this->connect->select($select);
+
+        return $this->connect;
     }
 
     /**

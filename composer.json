@@ -5,8 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Clown\\Redis\\": "src/"
-        }
+            "clown\\redis\\": "src/"
+        },
+        "files": []
     },
     "authors": [
         {
@@ -18,6 +19,5 @@
     "require": {},
     "psr-4": {
         "clown\\": "src/"
-    },
-    "files": []
+    }
 }

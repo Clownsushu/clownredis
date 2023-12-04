@@ -17,6 +17,7 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    
     "psr-4": {
         "clown\\redis\\": "src/"
     }

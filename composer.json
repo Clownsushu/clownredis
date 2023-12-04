@@ -1,0 +1,24 @@
+{
+    "name": "clown/redis",
+    "description": "redis类",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Clown\\Redis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "clown",
+            "email": "812827345@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "psr-4": {
+        "clown\\": "src/"
+    },
+    "files": [
+        "src/helper.php"
+    ]
+}

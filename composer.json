@@ -18,6 +18,6 @@
     "minimum-stability": "dev",
     "require": {},
     "psr-4": {
-        "clown\\": "src/"
+        "clown\\redis\\": "src/"
     }
 }

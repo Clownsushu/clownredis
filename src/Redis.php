@@ -45,7 +45,6 @@ class Redis
      * @param $exprie int 缓存超市时间
      * @param $prefix string 前缀
      * @throws \Exception
-     * @return \Redis
      */
     public function __construct($host = '', $port = '', $password = '', $select = 0, $timeout = 0, $exprie = 0, $prefix = '')
     {
@@ -93,8 +92,6 @@ class Redis
         !empty($password) && $this->connect->auth($password);
         //要查询的数据库
         $this->connect->select($select);
-
-        return $this->connect;
     }
 
     /**

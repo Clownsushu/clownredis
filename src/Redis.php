@@ -125,7 +125,6 @@ class Redis
 
         return $this->connect->eval($script, [$key, 1], 1);
     }
-
     
     /**
      * 返回当前链接

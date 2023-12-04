@@ -22,7 +22,7 @@ class Redis
     /**
      * @var \Redis 当前链接
      */
-    public $connect;
+    private $connect;
 
 
 
@@ -93,8 +93,6 @@ class Redis
         !empty($password) && $this->connect->auth($password);
         //要查询的数据库
         $this->connect->select($select);
-
-        return $this->connect;
     }
 
     /**
@@ -128,5 +126,13 @@ class Redis
         return $this->connect->eval($script, [$key, 1], 1);
     }
 
+    /**
+     * 返回当前链接
+     * @return \Redis
+     */
+    public function getRedis()
+    {
+        return $this->connect;
+    }
 
 }
